@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "tsDist", // path to output directory
+    "sourceMap": true, // allow sourcemap support
+    "strictNullChecks": true, // enable strict null checks as a best practice,
+    "noImplicitAny": true,
+    "module": "esnext", // specify module code generation
+    "target": "es6", // specify ECMAScript target version
+    "jsx": "preserve", // use typescript to transpile jsx to js,
+    "noEmit": false,
+    "downlevelIteration": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true
+  },
+  "allowJs": true,
+  "include": [
+    "src/**/*",
+    "src_tmp/Addition"
+  ]
+}
